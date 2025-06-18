@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useState, useRef } from "react";
 
 function GuessingGame(){
 
