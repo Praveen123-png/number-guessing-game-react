@@ -1,12 +1,13 @@
-# React + Vite
+# Number guessing game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+How it works:
 
-Currently, two official plugins are available:
+• You have to guess the number that the computer has already guessed.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+• If your guess is lower than computer's guess, it will show "Your guess is too low".
 
-## Expanding the ESLint configuration
+• If your guess is higher than computer's guess, it will show "Your guess is too high".
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+• It also displays how many guesses you have taken.
+
+• If you guessed correctly you will win the game.
